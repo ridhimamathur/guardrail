@@ -1,0 +1,33 @@
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Python
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Next.js
+
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+frontend/build/
+frontend/coverage/
+
+# General
+
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.pem
+*.key
